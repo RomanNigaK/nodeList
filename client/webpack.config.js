@@ -58,6 +58,20 @@ module.exports = {
         exclude: /node_modules/,
         type: "asset/resource",
       },
+      {
+        test: /\.(css|scss)$/i,
+        exclude: /node_modules/,
+        use: ["style-loader", "css-loader", "sass-loader"],
+      },
+
+      {
+        test: /\.(svg)$/i,
+        exclude: /node_modules/,
+        type: "asset/resource",
+        generator: {
+          filename: "icons/[hash][ext]",
+        },
+      },
     ],
   },
 

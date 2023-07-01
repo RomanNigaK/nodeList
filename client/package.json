@@ -17,7 +17,12 @@
     "ts-loader": "^9.4.4",
     "tsconfig-paths-webpack-plugin": "^4.0.1",
     "typescript": "^5.1.6",
-    "webpack-dev-server": "^4.15.1"
+    "webpack-dev-server": "^4.15.1",
+    "css-loader": "^6.7.3",
+    "file-loader": "^6.2.0",
+    "sass": "^1.63.6",
+    "sass-loader": "^13.3.2",
+    "style-loader": "^3.3.1"
   },
   "dependencies": {
     "react": "^18.2.0",
